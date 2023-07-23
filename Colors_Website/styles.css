@@ -1,0 +1,86 @@
+*{
+    box-sizing:border-box;
+    margin-top:0;
+
+}
+body{
+    background-color: #F5F5F5;
+    margin:0px;
+    font-family:Verdana,Georgia,serif;
+    font-size:1em;
+}
+section#heading{
+    background-color: green;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    position: fixed;
+    z-index: 100;
+    top:0px;
+    width:100%;
+   
+    
+}
+main{
+    display:block;
+    align-content: center;
+}
+#billboard{
+    margin:0;
+    outline:2px solid red;
+    height:25rem;
+    background-image: url("landscape.jpg");
+    background-size:100% 850px;
+    background-repeat: no-repeat;
+    background-position:right bottom;
+   
+    border-radius: 10px;
+
+}
+#greetings-background{
+    background-color:rgba(174,208,158,.6);
+    width:30%;
+    height:100%;
+    outline:2px solid black;
+    display:block;
+    padding:20eml;
+    margin-top:5rem;
+  
+}
+#greetings h1{
+    font-size:120%;
+    
+}
+#values{
+    margin:10px;
+    padding:2px;
+    background:orange;
+    display:flex;
+    flex-direction:row;
+    align-self:center;
+    gap:5%
+   
+}
+.ideal{
+    margin:0;
+    height:100%;
+    outline:green solid 2px;
+    
+   
+
+}
+.ideal > img{
+    height:30px;
+    
+}
+#about{
+    background:red;
+}
+#carousel{
+    background:yellow;
+}
+#reviews{
+    background:indigo;
+}
+#footer{
+    background:violet;
+}
