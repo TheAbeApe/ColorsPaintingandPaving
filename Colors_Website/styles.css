@@ -7,7 +7,7 @@ body{
     background-color: #F5F5F5;
     margin:0px;
     font-family:Verdana,Georgia,serif;
-    font-size:1em;
+    font-size:1.2em;
 }
 section#heading{
     background-color: green;
@@ -25,61 +25,151 @@ main{
     align-content: center;
 }
 #billboard{
+    min-height: 60vh;
     margin:0;
-    outline:2px solid red;
-    height:25rem;
+    height:15%;
     background-image: url("landscape.jpg");
     background-size:100% 850px;
     background-repeat: no-repeat;
     background-position:right bottom;
-   
-    border-radius: 10px;
+    
 
 }
 #greetings-background{
     background-color:rgba(174,208,158,.6);
     width:30%;
-    height:100%;
-    outline:2px solid black;
+    min-height:60vh;
     display:block;
     padding:20eml;
     margin-top:5rem;
+  
   
 }
 #greetings h1{
     font-size:120%;
     
 }
+
 #values{
-    margin:10px;
-    padding:2px;
-    background:orange;
-    display:flex;
-    flex-direction:row;
-    align-self:center;
-    gap:5%
+    padding:10px;
+    display:inline-flex;
+    margin:0;
+    min-height:7vh;
+    width:100%;
+    background:#282525;
+  
+    
    
 }
+.ideal > h1{
+    color:white;
+    text-align: center;
+}
+
 .ideal{
+    
+    display:inline-flex;
+    width:24%;
+    height:7vh;
     margin:0;
-    height:100%;
-    outline:green solid 2px;
+   
     
    
 
 }
-.ideal > img{
-    height:30px;
+.ideal-image{
+    border:2px solid white;
+    border-radius:10px;
+    display:inline-flex;
+    height:5vh;
+
+}
+
+#about{
+    margin:0px;
+    text-align:center;
+}
+ 
+.carousel{
+    position:relative;
+    align-items: center;
+    align-content: center ;
+    justify-content: center;
+
+}
+.carousel_photo{
+    width:40vh;
+    height:40vh;
+    padding:1em;
+    font-weight:bold;
+    font-size: 2em;
+    margin-left:auto;
+    margin-right:auto;
+    display:none;
+ 
     
 }
-#about{
-    background:red;
+.carousel_photo img{
+    width: 100%;
+    height: 97%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+   
 }
-#carousel{
-    background:yellow;
+ 
+.carousel_photo-selected{
+    display:block;
 }
+
+.carousel_nav{
+    width:100%;
+    padding:20px 0;
+    position:absolute;
+    left:0;
+    bottom:0;
+    text-align:center;
+}
+.carousel_button{
+    width:10px;
+    height:10px;
+    display:inline-block;
+    background:rgba(13, 83, 34, 0.521);
+    border-radius:50%;
+    margin:0 5px;
+    cursor: pointer;
+    
+
+}
+.carousel_button-selected{
+    background:rgba(24, 212, 65, 0.2);
+}
+
+
 #reviews{
-    background:indigo;
+    background-image: url("shrubbery.jpg");
+    background-size:100%;
+    height:40vh;
+    position:relative;
+    padding:20px;
+}
+.review-container{
+    display:flex;
+    background-color: rgb(255, 0, 0);
+    
+
+}
+.contact-container{
+    flex:1;
+    padding:1rem;
+
+}
+.review-content{
+    flex:1;
+    padding: 1rem;
+    
+    
+
 }
 #footer{
     background:violet;
