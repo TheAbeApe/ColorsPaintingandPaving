@@ -51,38 +51,33 @@ main{
 }
 
 #values{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
     padding:10px;
-    display:inline-flex;
     margin:0;
-    min-height:7vh;
+    height:60vh;
     width:100%;
     background:#282525;
   
     
    
 }
+.ideal{
+    display:inline block;
+    flex-grow:1;
+    border:2px solid white;
+}
 .ideal > h1{
     color:white;
     text-align: center;
 }
 
-.ideal{
-    
-    display:inline-flex;
-    width:24%;
-    height:7vh;
-    margin:0;
-   
-    
-   
-
-}
-.ideal-image{
+.ideal-image > img{
+    height:25px;
+    width:25px;
     border:2px solid white;
     border-radius:10px;
-    display:inline-flex;
-    height:5vh;
-
 }
 
 #about{
