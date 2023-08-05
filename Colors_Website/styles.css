@@ -1,6 +1,7 @@
 *{
     box-sizing:border-box;
     margin-top:0;
+    border:2px solid red;
 
 }
 body{
@@ -9,21 +10,24 @@ body{
     font-family:Verdana,Georgia,serif;
     font-size:1.2em;
 }
-section#heading{
-    background-color: green;
-    padding-top: .25rem;
-    padding-bottom: .25rem;
-    position: fixed;
-    z-index: 100;
-    top:0px;
-    width:100%;
-   
-    
-}
 main{
     display:block;
     align-content: center;
 }
+.navigation{
+    display:flex;
+    height:5vh;
+}
+.companylogo{
+    width:10%;
+    height: 
+}
+.companylogo img{
+    height:100%;
+    width:100%;
+    object-fit: fill;
+}
+
 #billboard{
     min-height: 60vh;
     margin:0;
@@ -32,18 +36,14 @@ main{
     background-size:100% 850px;
     background-repeat: no-repeat;
     background-position:right bottom;
+    display:flex;
     
 
 }
-#greetings-background{
+.greetings-background{
     background-color:rgba(174,208,158,.6);
-    width:30%;
-    min-height:60vh;
-    display:block;
-    padding:20eml;
-    margin-top: 4rem;
-  
-  
+    width:40%;
+    display:flex;
 }
 #greetings h1{
     font-size:120%;
@@ -52,11 +52,10 @@ main{
 
 #values{
     display:flex;
-    flex-wrap:wrap;
     justify-content: flex-end;
     padding:10px;
     margin:0;
-    height:60vh;
+    height:10vh;
     width:100%;
     background:#282525;
   
@@ -64,19 +63,21 @@ main{
    
 }
 .ideal{
-    display:inline block;
-    flex-grow:1;
-    border:2px solid white;
+    display:flex;
+    flex:1 1 0;
+    
 }
-.ideal > h1{
+.ideal-text{
+    font-size: 1.5em;
     color:white;
     text-align: center;
 }
+.ideal-image{
+    width:100px;
+}
 
-.ideal-image > img{
-    height:25px;
-    width:25px;
-    border:2px solid white;
+.ideal-image img {
+    max-height:90px;
     border-radius:10px;
 }
 
