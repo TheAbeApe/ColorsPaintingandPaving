@@ -1,8 +1,32 @@
+/* .black { 
+	background:  ; 
+}
+	
+.dark green { 
+	background: #3a7563; 
+}
+
+.green { 
+	background: #59a985; 
+}
+
+.tan { 
+	background: #e6d3a7; 
+   
+.white-grey { 
+        background: #f1f2eb; 
+    }
+    */
 *{
     box-sizing:border-box;
     margin-top:0;
-    border:2px solid red;
+    
 
+}
+a{
+    text-decoration: none;
+    color:#392f2f;
+    font-weight: 1000;
 }
 body{
     background-color: #F5F5F5;
@@ -14,39 +38,58 @@ main{
     display:block;
     align-content: center;
 }
-.navigation{
+#navigation{
+    background-color:  #f1f2eb;
+    color:;
+    font-family: 'Chakra Petch', sans-serif;
     display:flex;
-    height:5vh;
+    height:10vh;
 }
 .companylogo{
-    width:10%;
-    height: 
+    width:30%;
 }
 .companylogo img{
     height:100%;
     width:100%;
     object-fit: fill;
 }
+.links{
+    flex-wrap:wrap;
+    width:60%;
+    display:flex;
+    align-self: center;
+    gap:5%;
+}
+.quickcontact{
+    display:flex;
+    width:10%;
+    justify-content: center;
+    align-items: center;
+
+}
 
 #billboard{
-    min-height: 60vh;
+    min-height: 40vh;
     margin:0;
     height:15%;
-    background-image: url("landscape.jpg");
-    background-size:100% 850px;
+    background-image: url("landscape.png");
     background-repeat: no-repeat;
-    background-position:right bottom;
+   
+   
     display:flex;
     
 
 }
 .greetings-background{
-    background-color:rgba(174,208,158,.6);
+    background-color:#392f2fc7; 
+    color:#e6d3a7;
     width:40%;
     display:flex;
+    justify-content: center;
 }
-#greetings h1{
-    font-size:120%;
+.greetings h1{
+    font-size:40px;
+    font-family: 'Archivo Black', sans-serif;
     
 }
 
@@ -57,7 +100,7 @@ main{
     margin:0;
     height:10vh;
     width:100%;
-    background:#282525;
+    background:#3a7563;
   
     
    
@@ -82,11 +125,12 @@ main{
 }
 
 #about{
-    margin:0px;
     text-align:center;
+    background:#3a7563;
 }
  
 .carousel{
+    background:#3a7563;
     position:relative;
     align-items: center;
     align-content: center ;
@@ -130,7 +174,7 @@ main{
     width:10px;
     height:10px;
     display:inline-block;
-    background:rgba(13, 83, 34, 0.521);
+    background:rgb(235, 241, 237);
     border-radius:50%;
     margin:0 5px;
     cursor: pointer;
@@ -138,7 +182,7 @@ main{
 
 }
 .carousel_button-selected{
-    background:rgba(24, 212, 65, 0.2);
+    background:rgb(30, 255, 0);
 }
 
 
